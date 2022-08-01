@@ -88,26 +88,23 @@ It was necessary to modify the incoming website links that youTube provides usin
 We can access merchant collections by adding them to the collection level children.
 
 var jsonTopHat = {
- _id: 62d36670e7cd1b409ac14ecf, 
+ 
  name: collection, 
  children: [
  {
- _id: 62d2548f00e837706141414e,
+ 
  name: bachata,
  children: [
  {
- _id: 62d2548f00e837706141414f,
  name: Marius and Elena,
  children: [
  {
- _id: 62d2548f00e8377061414150,
  name: Basics, 
  children: [],
  listType: ScrollDirection.vertical,
  youtube: https://www.youtube.com/watch?v=uYogZ8wGrv0
  },
  {
- _id: 62d2548f00e8377061414151,
  name: Intermediate,
  children: [],
  listType: ScrollDirection.vertical,
@@ -123,15 +120,12 @@ var jsonTopHat = {
  youtube: null
  }, 
  {
- _id: 62d270614271446d42b41edd, 
  name: South Park, children: 
  [
  {
- _id: 62d2706f4271446d42b41ede, 
  name: Season 1, 
  children: [
  {
- _id: 62d2707b4271446d42b41edf, 
  name: Episode 3, 
  children: [], 
  listType: ScrollDirection.vertical, 
@@ -153,22 +147,18 @@ var jsonTopHat = {
 ## Blank Passing TopHat
 
 var merchantCollection = {
- _id: 62d26d224271446d42b41edb
  'name': 'bachata',
  'children': [
  {
- _id: 62d2548f00e837706141414e
  'name': 'Marius and Elena',
  'children': [
  {
- _id: 62d2548f00e8377061414150
  'name': 'Basics',
  'children': [],
  'listType': 'ScrollDirection.vertical',
  'youtube': 'https://www.youtube.com/watch?v=uYogZ8wGrv0'
  },
  {
- _id: 62d2548f00e8377061414151
  'name': 'Intermediate',
  'children': [],
  'listType': 'ScrollDirection.vertical',
