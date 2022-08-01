@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:top_hat_2/pages/collection_page.dart';
 
+// minimum viable product that I cut and paste from a fully working project.
+// the video player doesn't work yet. I suspect its because I haven't added permissions or maybe I have erased a variable when making the MVP.
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
