@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:top_hat_2/helpers/renaming_dialog_box.dart';
+import 'package:top_hat_2/helpers/naming_dialog_box.dart';
 import 'package:top_hat_2/models/composite.dart';
 
 
