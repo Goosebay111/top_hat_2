@@ -27,12 +27,12 @@ class CollectionToken extends StatelessWidget {
         leading: Text(
           'Topic',
           style: GoogleFonts.poppins(
-              textStyle: Theme.of(context).textTheme.caption),
+              textStyle: Theme.of(context).textTheme.bodySmall),
         ),
         title: Text(
           children[index].name ?? '',
           style: GoogleFonts.poppins(
-              textStyle: Theme.of(context).textTheme.headline6),
+              textStyle: Theme.of(context).textTheme.titleLarge),
         ),
         trailing: GestureDetector(
           onLongPress: () {

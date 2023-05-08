@@ -27,7 +27,7 @@ class HatchText extends StatelessWidget {
       child: Text(
         children[index].name ?? '',
         style: GoogleFonts.poppins(
-          textStyle: Theme.of(context).textTheme.subtitle1,
+          textStyle: Theme.of(context).textTheme.titleMedium,
         ),
       ),
     );

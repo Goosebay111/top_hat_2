@@ -49,13 +49,13 @@ class TopicToken extends StatelessWidget {
                     child: Text(
                       scrollType == LeafType.collection ? 'Topic' : 'Hatch',
                       style: GoogleFonts.poppins(
-                          textStyle: Theme.of(context).textTheme.caption),
+                          textStyle: Theme.of(context).textTheme.bodySmall),
                     ),
                   ),
                   title: Text(
                     children[index].name ?? '',
                     style: GoogleFonts.poppins(
-                      textStyle: Theme.of(context).textTheme.headline6,
+                      textStyle: Theme.of(context).textTheme.titleLarge,
                     ),
                   ),
                 ),

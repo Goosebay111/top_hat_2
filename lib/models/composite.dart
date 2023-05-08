@@ -11,8 +11,8 @@ class Composite implements Component {
     required this.video,
   });
   String? name;
-  LeafType? leafType;
   List<Composite> children;
+  LeafType? leafType;
   String? video;
 
   @override

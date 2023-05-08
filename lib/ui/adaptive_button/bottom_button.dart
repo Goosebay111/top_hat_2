@@ -15,6 +15,7 @@ class BottomButton extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
+        // todo: 
         IconButton(
           icon: Icon(
             (child?.leafType == LeafType.collection)

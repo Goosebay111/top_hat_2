@@ -13,19 +13,19 @@ class CollectionTitleAppBar extends StatelessWidget {
       children: [
         Text('Top',
             style: GoogleFonts.poppins(
-                textStyle: Theme.of(context).textTheme.headline4,
+                textStyle: Theme.of(context).textTheme.headlineMedium,
                 color: Colors.black87)),
         Text('ic',
             style: GoogleFonts.poppins(
-                textStyle: Theme.of(context).textTheme.caption,
+                textStyle: Theme.of(context).textTheme.bodySmall,
                 color: Colors.grey[200])),
         Text('Hat',
             style: GoogleFonts.poppins(
-              textStyle: Theme.of(context).textTheme.headline4,
+              textStyle: Theme.of(context).textTheme.headlineMedium,
             )),
         Text('ch',
             style: GoogleFonts.poppins(
-                textStyle: Theme.of(context).textTheme.caption,
+                textStyle: Theme.of(context).textTheme.bodySmall,
                 color: Colors.grey[200])),
       ],
     );

@@ -42,8 +42,6 @@ class _ClientListViewState extends State<ClientListView> {
                 backgroundColor: Colors.green,
                 onPressed: ((context) async {
                   final data = widget.child.children[index];
-                  
-                  
                 }),
                 icon: CupertinoIcons.cloud_upload_fill,
               ),

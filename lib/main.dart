@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'TopHat',
       theme: ThemeData(
-        backgroundColor: Colors.white,
+        // backgroundColor: Colors.white,
         primaryColor: Colors.white,
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
